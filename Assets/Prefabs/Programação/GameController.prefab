@@ -1,0 +1,443 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1420515412370280}
+  m_IsPrefabParent: 1
+--- !u!1 &1420515412370280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4727580334480636}
+  - component: {fileID: 114961435502177860}
+  - component: {fileID: 114323466613725994}
+  - component: {fileID: 114978522531336590}
+  - component: {fileID: 114823310773296372}
+  - component: {fileID: 114393554714051008}
+  - component: {fileID: 114454214161322934}
+  - component: {fileID: 114898455326025248}
+  - component: {fileID: 114600128677498430}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1811998035780746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4307445408443288}
+  - component: {fileID: 108698805998470926}
+  m_Layer: 0
+  m_Name: Light Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4307445408443288
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811998035780746}
+  m_LocalRotation: {x: 0.7071068, y: -0.0000000052683564, z: -0.0000000052683564,
+    w: 0.7071068}
+  m_LocalPosition: {x: 14.05, y: 29.96, z: 0.11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4727580334480636}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!4 &4727580334480636
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420515412370280}
+  m_LocalRotation: {x: -0, y: -0, z: 0.000000007450581, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4307445408443288}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &108698805998470926
+Light:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1811998035780746}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!114 &114323466613725994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420515412370280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e2432684dd03db4e9a54e6d582fb1ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstRoomDuct: {fileID: 0}
+  appearOnFirstRoom:
+  - {fileID: 0}
+  - {fileID: 0}
+  disappearOnFirstRoom:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  appearOnFirstRoom2:
+  - {fileID: 0}
+  - {fileID: 0}
+  disappearOnFirstRoom2:
+  - {fileID: 0}
+  - {fileID: 0}
+  disappearOnFirstRoom3:
+  - {fileID: 0}
+  - {fileID: 0}
+  appearOnFirstRoom4:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  disappearOnFirstRoom4:
+  - {fileID: 0}
+  appearOnSecondRoom:
+  - {fileID: 0}
+  - {fileID: 0}
+  disappearOnSecondRoom:
+  - {fileID: 0}
+  - {fileID: 0}
+  appearAtRoom9994: {fileID: 0}
+  appearAtRoom9991: {fileID: 0}
+  appearOnSecondRoomFinal:
+  - {fileID: 0}
+  - {fileID: 0}
+  disappearOnSecondRoomFinal:
+  - {fileID: 0}
+  - {fileID: 0}
+  appearAfterSecondRoom:
+  - {fileID: 0}
+  disappearAfterSecondRoom:
+  - {fileID: 0}
+  ductSceneFirstDestination: {fileID: 0}
+  ductSceneSecondDestination: {fileID: 0}
+  destinationAfterLab9: {fileID: 0}
+  destinationAfterTRoom: {fileID: 0}
+  secondFloorCorridorDestination: {fileID: 0}
+  navMeshSurface: {fileID: 0}
+  salaDeRadio: {fileID: 0}
+  salinha: {fileID: 0}
+  SecFloorRandTargets: {fileID: 0}
+  dummiesToAppear: {fileID: 0}
+  dummiesToDisappear: {fileID: 0}
+  dummiesToAppear2: {fileID: 0}
+  dummiesToDisappear2: {fileID: 0}
+  dummiesAudio: {fileID: 0}
+  janitorAggroTrigger: {fileID: 0}
+  thirdFloorElevatorPanel: {fileID: 0}
+  thirdFloorElevatorDestination: {fileID: 0}
+  secondFloorElevatorPanel: {fileID: 0}
+  secondFloorElevatorPanel2: {fileID: 0}
+  ElevatorTrigger: {fileID: 0}
+  ElevatorTrigger2: {fileID: 0}
+  secondFloorElevatorDestination: {fileID: 0}
+  groundFloorElevatorPanel1: {fileID: 0}
+  groundFloorElevatorPanel2: {fileID: 0}
+  ElevatorTrigger3: {fileID: 0}
+  groundFloorElevator: {fileID: 0}
+  salaDeRadioDoor: {fileID: 0}
+  blackScreen: {fileID: 0}
+--- !u!114 &114393554714051008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420515412370280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a875401e5d608b643b5eec86e39ad51f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sunSource: {fileID: 1811998035780746}
+  flashLight: {fileID: 0}
+  zippo: {fileID: 0}
+--- !u!114 &114454214161322934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420515412370280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a7ac5d182baa224389b4ff954ed572f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114600128677498430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420515412370280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 326d063d8669a794f8f4273b425812de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114823310773296372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420515412370280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 270acdedc437ba940b5a136219fb989e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  janitor: {fileID: 1035820095338848, guid: 984fad496cdcd5d4587c8990e5b8ca6e, type: 2}
+  corridorLocation: {fileID: 0}
+  ductSceneLocation: {fileID: 0}
+  corridorChaseLeft: {fileID: 0}
+  corridorChaseRight: {fileID: 0}
+  lab9Location: {fileID: 0}
+  doorClinic: {fileID: 0}
+  Room2FirstLocation: {fileID: 0}
+  Room2SecondLocation: {fileID: 0}
+  Room2ThirdLocation: {fileID: 0}
+  secondFloorCorridorLocation: {fileID: 0}
+  frontOfConsultoryLocation: {fileID: 0}
+  elevatorAttackLocation: {fileID: 0}
+  groundFloorLocation: {fileID: 0}
+  darkRoomLocation: {fileID: 0}
+--- !u!114 &114898455326025248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420515412370280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56472aedb42e8747a91e86b0c87ab6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114961435502177860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420515412370280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90aad3cbe15cc9540b0dddadfa14493f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "MusicaTens\xE3o1": {fileID: 8300000, guid: f38d1b0fe63478445ac66f312388e117, type: 3}
+  "MusicaTens\xE3o2": {fileID: 8300000, guid: ea4c57789eefb4c4887cfdcff8858bf1, type: 3}
+  "MusicaTens\xE3o3": {fileID: 8300000, guid: 2cc604d56377e4c41b87a2e1b5cd2d9e, type: 3}
+  MusicaDesespero1: {fileID: 8300000, guid: 4ed1ae4c69c012c4c92be1e631c855a9, type: 3}
+  MusicaDesespero2: {fileID: 8300000, guid: 2a128ff57bf37394995f2fe08a293484, type: 3}
+  MusicaPreenchimento1: {fileID: 8300000, guid: 8ff2c5c9572810045a7053a332a6ec50,
+    type: 3}
+  MusicaPreenchimento2: {fileID: 8300000, guid: 81df973873f1a4b41a013fa406f554eb,
+    type: 3}
+  MusicaPreenchimento3: {fileID: 8300000, guid: 5f47b965260821d408eb95a129f538b0,
+    type: 3}
+  MusicaMenu: {fileID: 8300000, guid: 55b17b6846795734b9d6e57fb1a61837, type: 3}
+  ZeladorPisoconcretoAndando: {fileID: 8300000, guid: a960d3ce963831148bb9dd80b72f67a0,
+    type: 3}
+  ZeladorPisoconcretoCorrendo: {fileID: 8300000, guid: ed761b1ce4485df41ba3d8fefbdcceca,
+    type: 3}
+  ZeladorPisomadeiraAndando: {fileID: 8300000, guid: 4ed863f68720a3f46a7764b9892514d2,
+    type: 3}
+  ZeladorPisomadeiraCorrendo: {fileID: 8300000, guid: 3df0479906081a044a5a59d2a20984ed,
+    type: 3}
+  ProtagonistaPisoconcretoAndando: {fileID: 8300000, guid: e098e60a5eead9f4192fe36be2864f37,
+    type: 3}
+  ProtagonistaPisoconcretoCorrendo: {fileID: 8300000, guid: 4d1dc9070d968224b9e9dfb648cfa089,
+    type: 3}
+  ProtagonistaPisomadeiraAndando: {fileID: 8300000, guid: 65887ed8905063d4e91de83f34799fed,
+    type: 3}
+  ProtagonistaPisomadeiraCorrendo: {fileID: 8300000, guid: 20579ccbcd158c547b3e5e0b7f29055d,
+    type: 3}
+  ProtagonistaRespiracaoNormal: {fileID: 8300000, guid: 8aecfc904af947b49b15f91b1411f447,
+    type: 3}
+  ProtagonistaRespiracaoCorrendo: {fileID: 8300000, guid: 33bba3f3ae0b8e047848b334e85599b2,
+    type: 3}
+  ProtagonistaRespiracaoSoltaAr: {fileID: 8300000, guid: 7ed84fa0ab0896f429c55d9b32271ccf,
+    type: 3}
+  ProtagonistaRespiracaoTrancaAr: {fileID: 8300000, guid: 58785988e2df6cf4c897df3e297e43e0,
+    type: 3}
+  Fita1: {fileID: 8300000, guid: c450d95ddd585bb47b3d98e4574ea267, type: 3}
+  Fita2: {fileID: 8300000, guid: 645a747b2f83cf14b9ef802732187ddb, type: 3}
+  Fita3: {fileID: 8300000, guid: 3456e5d12f2042444b04a4310dff3b06, type: 3}
+  Fita4: {fileID: 8300000, guid: b8d85afd609e2db4f9dc34035d695768, type: 3}
+  Fita5: {fileID: 8300000, guid: abfad3ae50fab0a4fb269e16725f2fbc, type: 3}
+  ZeladorGrunhidosNormal: {fileID: 8300000, guid: ec468890dee60ff45a3bcc5d9a40df48,
+    type: 3}
+  ZeladorGrunhidosCorrendo: {fileID: 8300000, guid: de5f2f45d127fbd459e0afdc67ddb0f5,
+    type: 3}
+  "ZeladorGrunhidosGolpedep\xE1": {fileID: 8300000, guid: 7b4da33f4cb21934490cca304263c358,
+    type: 3}
+  PortaEletronicaAbrindo: {fileID: 8300000, guid: 3e06fc92410f7f842a1690a91a61671d,
+    type: 3}
+  PortaEletronicaFechando: {fileID: 8300000, guid: 031a9203d7f41674a88c668c5f0a38dc,
+    type: 3}
+  PortaNormalTrancada: {fileID: 8300000, guid: ddb1ab8f897f0174684066ca809c7d45, type: 3}
+  PortaNormalAbrindolentamente: {fileID: 8300000, guid: 36dc9e605a5dcd743a8b2f342844cb97,
+    type: 3}
+  PortaCortafogoAbrindo: {fileID: 8300000, guid: e98c75db163d8bd4e9d183faffcd18e7,
+    type: 3}
+  PortaCortafogoFechando: {fileID: 8300000, guid: dff51e0f3e9fd4f42806632ea6eff30d,
+    type: 3}
+  PortaCortafogoLentamente: {fileID: 8300000, guid: b42cc906e732f7147b35558ed87fc3c5,
+    type: 3}
+  PortaCortafogoBatendoforte: {fileID: 8300000, guid: af2fad221141d504880562fbcc41ffbf,
+    type: 3}
+  PortaCortafogoTrancada: {fileID: 8300000, guid: 4535f0be7013e3d458659ef9d907a8cd,
+    type: 3}
+  PortaVidroAbrindo: {fileID: 8300000, guid: e38f690db5968c949b724d6fe6408695, type: 3}
+  PortaVidroFechando: {fileID: 8300000, guid: b081fe7503c4a8c428c0c48fd65682af, type: 3}
+  PortaVidroLentamente: {fileID: 8300000, guid: 1a3a603cf06c5844daf18d9e02de68aa,
+    type: 3}
+  PortaVidroTrancada: {fileID: 8300000, guid: 83a251da031e7c6479c05a45c04c8188, type: 3}
+  PortaNormalFechando: {fileID: 8300000, guid: 9646a3fef62251546b83c3b592b9a5dd, type: 3}
+  PortaNormalAbrindo: {fileID: 8300000, guid: 7490b5b7cefcf6340a89c73526d8e3fb, type: 3}
+  LanternaLigar: {fileID: 8300000, guid: 677763efe0ba497469306db691800675, type: 3}
+  LanternaGirarmanivela: {fileID: 8300000, guid: f402b5324eff6fe4fbddf8a91009ea0e,
+    type: 3}
+  LanternaArrastando: {fileID: 8300000, guid: 9774b0a5459109a4285bb49f5c7f4106, type: 3}
+  LanternaBateriaAcaba: {fileID: 8300000, guid: 43bd3410ee8d3d64085c9334569ea8bf,
+    type: 3}
+  IsqueiroAceso: {fileID: 8300000, guid: fae6cc42db29e1342a2155b218f80a09, type: 3}
+  IsqueiroAcender: {fileID: 8300000, guid: eb896b61add281b40ab7e5f961a9615e, type: 3}
+  IsqueiroGuardar: {fileID: 8300000, guid: d8675b7cd09f8a24586c0182272468c7, type: 3}
+  ChaveDestrancar: {fileID: 8300000, guid: a6f9b3f717f1ada4aa3fb1d8c09abd52, type: 3}
+  ChavePegar: {fileID: 8300000, guid: a3188e2327a084b418856f929ab23a4d, type: 3}
+  GavetaFechar: {fileID: 8300000, guid: a5b382e8c2107854a935a4893719eb5a, type: 3}
+  GavetaAbrir: {fileID: 8300000, guid: 856e2423f08342a45b1e3701268783fc, type: 3}
+  DutoPassos: {fileID: 8300000, guid: c60e2ac1cefc30049a27a72796e4c1d5, type: 3}
+  DutoTampaCai: {fileID: 8300000, guid: 69d2b2899d14a55488bddb9c7576d90f, type: 3}
+  DutoTampaArrancada: {fileID: 8300000, guid: 27ed6d8f79b0925458f4781e1e84eeae, type: 3}
+  InventarioAbrir: {fileID: 8300000, guid: 8f43c9b30f0b30941af302d611daf928, type: 3}
+  InventarioSelecionaritem: {fileID: 8300000, guid: f45afb8aed2ef65489bb51c9dbda6441,
+    type: 3}
+  PapelAbrir: {fileID: 8300000, guid: 8f43c9b30f0b30941af302d611daf928, type: 3}
+  IdentificadordesenhaBotao: {fileID: 8300000, guid: b909f9cf8afdfdd42ac32689d6a5c4aa,
+    type: 3}
+  IdentificadordesenhaSenhaincorreta: {fileID: 8300000, guid: f41e1880c341adc48aae1baed073ee6b,
+    type: 3}
+  IdentificadordesenhaSenhacorreta: {fileID: 8300000, guid: baa7575f24b990c4c9ab34721ba9166e,
+    type: 3}
+  ArmarioEntrar: {fileID: 8300000, guid: e885a8827890d7942b16a3511feb9a76, type: 3}
+  ArmarioSair: {fileID: 8300000, guid: 1740da1c3b002964bb3f664b8c7f47cd, type: 3}
+  ElevadorBotao: {fileID: 8300000, guid: da80c4eeaa3d6614abcf11baed141906, type: 3}
+  ElevadorAbre: {fileID: 8300000, guid: b5e6b748d2463964fafe0db269488430, type: 3}
+  ElevadorFecha: {fileID: 8300000, guid: 7c970bca8dc8b2f4cab39b1f8eb4b9f1, type: 3}
+  ElevadorInicio: {fileID: 8300000, guid: 1330b578078b5e1469717e7f420dedd8, type: 3}
+  ElevadorPara: {fileID: 8300000, guid: c06fb5baa991e83468829cc42e794ec2, type: 3}
+  "ElevadorMovimenta\xE7ao": {fileID: 8300000, guid: be623d72bd1e3164e878ef76967bf967,
+    type: 3}
+  ElevadorVoltaenergia: {fileID: 8300000, guid: 1f5dfa0cf15a32d4caf2e3073e1a808a,
+    type: 3}
+  ElevadorCaindoUnico: {fileID: 8300000, guid: b6414781a47d3bc45a69e03d190bbf31, type: 3}
+  TvChiado: {fileID: 8300000, guid: 25762a67f17cb02488a9216eed2b00a0, type: 3}
+  TvBotao: {fileID: 8300000, guid: 075883622ea86d64ab2943bdbecfe1e6, type: 3}
+  GeradorLigado: {fileID: 8300000, guid: 0cd71f90f3db428499a62ee8f17e5d26, type: 3}
+  GeradorLigar: {fileID: 8300000, guid: a711a3ce9fcfce3479b3ae9425f10391, type: 3}
+  VidroquebrandoLeve: {fileID: 8300000, guid: cd344086e6c50444eba58e0c41661572, type: 3}
+  VidroquebrandoCabine: {fileID: 8300000, guid: a7eb488920d1b624a940f36c9c2a8bbf,
+    type: 3}
+  VidroquebrandoPorta: {fileID: 8300000, guid: 9d15acaa4d8c1be418a10331681774a0, type: 3}
+  Metalarrastando: {fileID: 8300000, guid: 29259c556a2c0ae44925f6ff1badf966, type: 3}
+  LampadaInterruptor: {fileID: 8300000, guid: a02327f1eeb2028409d5f4cab6079ff2, type: 3}
+  LampadaCaindo: {fileID: 8300000, guid: 151fef0a02ff97c4885fd5c84a68c01b, type: 3}
+  LampadaAcender: {fileID: 8300000, guid: 081aea057ebcb6f49bb6b2b9d45b7f7a, type: 3}
+  LampadaApagar: {fileID: 8300000, guid: 743d66fa2c6dcce45a4529b7d695c28b, type: 3}
+  LampadaFalhando: {fileID: 8300000, guid: 3882cade26961384e9c4392c2ee3a500, type: 3}
+  LampadaFalhandorapido: {fileID: 8300000, guid: f5228d012ffde8f458d00bc34de9f74c,
+    type: 3}
+  Chaodesabando: {fileID: 8300000, guid: 537fa1c49323dcf4e970675be7c035dc, type: 3}
+  Alarme: {fileID: 8300000, guid: ed0c7d7a7f79d6d47aeb968bf262af7c, type: 3}
+  ManequimCaicompleto: {fileID: 8300000, guid: 837da273fb851a34da29e2b57f6a74f3, type: 3}
+  ObjetosinflamaveisAtearfogo: {fileID: 8300000, guid: 0f18b28970889bc459617ce01fcb8ba0,
+    type: 3}
+  ObjetosinflamaveisPilhadepapelao: {fileID: 8300000, guid: ff08ae6b8aa4b9f41b9d7de82adfdd6f,
+    type: 3}
+  ObjetosinflamaveisLixeira: {fileID: 8300000, guid: 9fd54221585238d4c8a2ed69f91ce5b4,
+    type: 3}
+  ObjetosinflamaveisPilhadejornal: {fileID: 8300000, guid: e7065a2ba28e0744b8fbc8ca4a55d505,
+    type: 3}
+  PaVarrendo: {fileID: 8300000, guid: 8b3aec9f15b94f34a9f605119fda742f, type: 3}
+  PaArrastandocorrendo: {fileID: 8300000, guid: 730bc40300cc9344baf6a0f02b3a6698,
+    type: 3}
+  PaArrastandoandando: {fileID: 8300000, guid: 56d0813869db0f740b6447595a205f82, type: 3}
+  PaDebatendoelevador: {fileID: 8300000, guid: 43191be4c8ebe7d4ab4b0804ac4e126c, type: 3}
+  PaBatendoelevador: {fileID: 8300000, guid: 9ba24ffd76d2a7440a930e48ce0c429e, type: 3}
+  PaBatendojogador: {fileID: 8300000, guid: 122d053c150c3654d9a834e7ce56b16a, type: 3}
+  PaCaindo: {fileID: 8300000, guid: 1a3a2cc1fe5e0924c8ed5e6139829f8a, type: 3}
+  ZeladorBatendoporta: {fileID: 8300000, guid: 4f3a5161b2d2b8f44a0cb8e93b72f97b, type: 3}
+  EfeitoDramatico1: {fileID: 8300000, guid: 6a468ede3ca9dc941be2ee32931fde9f, type: 3}
+  EfeitoDramatico2: {fileID: 8300000, guid: e94ade90787ba7249ad60970ac02a5d8, type: 3}
+  EfeitoDramatico3: {fileID: 8300000, guid: 262125037d489dd40a8e06596a3fe73a, type: 3}
+  EfeitoDramatico4: {fileID: 8300000, guid: 47be55caf55936547bf6fe6cd29d8d59, type: 3}
+  EfeitoDramatico5: {fileID: 8300000, guid: c34ecda91e146d04796874120472de6b, type: 3}
+--- !u!114 &114978522531336590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1420515412370280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e68c9d0712a95f45b94029dbe407213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mannequinCorridor: {fileID: 0}
+  mannequinShovel: {fileID: 0}

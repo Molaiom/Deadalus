@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 534bade7dac468043ac1b6002836f576
+timeCreated: 1525204759
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pequeno.009
+    100004: pequeno.013
+    100006: pequeno.014
+    100008: pequeno.015
+    100010: pequeno.016
+    100012: pequeno.017
+    100014: pequeno.018
+    100016: pequeno.019
+    100018: pequeno.020
+    100020: pequeno.021
+    400000: //RootNode
+    400002: pequeno.009
+    400004: pequeno.013
+    400006: pequeno.014
+    400008: pequeno.015
+    400010: pequeno.016
+    400012: pequeno.017
+    400014: pequeno.018
+    400016: pequeno.019
+    400018: pequeno.020
+    400020: pequeno.021
+    2100000: Material.001
+    2100002: Material
+    2100004: Material.002
+    2100006: Material.005
+    2100008: Material.003
+    2100010: Material.004
+    2300000: pequeno.009
+    2300002: pequeno.013
+    2300004: pequeno.014
+    2300006: pequeno.015
+    2300008: pequeno.016
+    2300010: pequeno.017
+    2300012: pequeno.018
+    2300014: pequeno.019
+    2300016: pequeno.020
+    2300018: pequeno.021
+    3300000: pequeno.009
+    3300002: pequeno.013
+    3300004: pequeno.014
+    3300006: pequeno.015
+    3300008: pequeno.016
+    3300010: pequeno.017
+    3300012: pequeno.018
+    3300014: pequeno.019
+    3300016: pequeno.020
+    3300018: pequeno.021
+    4300000: pequeno.020
+    4300002: pequeno.021
+    4300004: pequeno.019
+    4300006: pequeno.018
+    4300008: pequeno.017
+    4300010: pequeno.016
+    4300012: pequeno.015
+    4300014: pequeno.013
+    4300016: pequeno.014
+    4300018: pequeno.009
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fosforo
+  - Flammable
+  - Vidro
+  - PointWay
+  - Lanterna
+  - Inimigo
+  - Door
+  - Key
+  - Gerador
+  - DoorEletric
+  - Esconderijo
+  - Fita
+  - stickers
+  - Gravador
+  - Duto
+  - Switch
+  - Fecha
+  - Fall
+  - Elevador
+  - Dentro
+  - Interruptor
+  - ParedeConcreto
+  - Gaveta
+  - Cache
+  - Janitor
+  - Zippo
+  - Cover
+  - Elevator Panel
+  - TV
+  - Panel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Objetos Detectaveis
+  - 
+  - 
+  - 
+  - Inspect
+  - Player
+  - Infraestrutura
+  - Door
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: HUD
+    uniqueID: 2577517089
+    locked: 0
+  - name: Inspect
+    uniqueID: 1613840033
+    locked: 0
